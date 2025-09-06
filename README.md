@@ -51,8 +51,18 @@ python tradebot.py
 Close with the window **X** or **Ctrl+C** (clean shutdown).
 
 ---
+---
+STRATEGY EXPLANATION ! 
+As now, tradebot activate the strategies.py 
+this triggers :
+- Set blue limits lines on the HIGHEST and LOWEST values from the 5 last 1min candles ( the REF_LOCAL_HOUR and the REF_LOCAL_MINUTE marked the last 1min candle ).
+- Set the process to wait for a candle that OPEN or CLOSED over the Blue Limits , then trigger the LONG or SHORT position with a 2x1 ratio and mark that with VIOLET LIMIT LINES. 
+- Wait for the CURRENT PRICE - LIVE PRICE - YELLOW DOT touches the VIOLET LIMITS , and trigger TAKE PROFIT or TAKE LOSS
+- Endless loop for now need customization
+---
+---
 
-## Reference – edit these knobs
+## Reference – edit these knob
 
 ### `tradebot.py`
 **Inputs**
