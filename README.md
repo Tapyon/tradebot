@@ -53,7 +53,8 @@ Close with the window **X** or **Ctrl+C** (clean shutdown).
 ---
 ---
 STRATEGY EXPLANATION ! 
-As now, tradebot activate the strategies.py 
+-
+As now, tradebot activate the strategies.py , and works for the FIRST 5 MIN CANDLE THEORY ...
 this triggers :
 - Set blue limits lines on the HIGHEST and LOWEST values from the 5 last 1min candles ( the REF_LOCAL_HOUR and the REF_LOCAL_MINUTE marked the last 1min candle ).
 - Set the process to wait for a candle that OPEN or CLOSED over the Blue Limits , then trigger the LONG or SHORT position with a 2x1 ratio and mark that with VIOLET LIMIT LINES. 
