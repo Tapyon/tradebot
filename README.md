@@ -1,3 +1,6 @@
+<img width="1631" height="1351" alt="image" src="https://github.com/user-attachments/assets/9d68a0e4-af35-4dae-9401-126ee097f56e" />
+
+
 # Tradebot – Mini 1-Minute Chart (WIP)
 
 A tiny desktop app that shows a **1-minute mini-chart** (dots + arrows), a **live yellow price dot**, and optional **pattern/strategy logs**.  
@@ -38,7 +41,8 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 # otherwise:
 python -m pip install requests websocket-client
-
+INSTALL TKINTER
+INSTALL REQUEST
 # 4) Run
 python tradebot.py
 ```
