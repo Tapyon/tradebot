@@ -1,7 +1,7 @@
 <img width="1631" height="1351" alt="image" src="https://github.com/user-attachments/assets/9d68a0e4-af35-4dae-9401-126ee097f56e" />
 
 
-# Tradebot – Mini 1-Minute Chart (WIP)
+# Tradebot – Mini 1- Minute Chart
 
 A tiny desktop app that shows a **1-minute mini-chart** (dots + arrows), a **live yellow price dot**, and optional **pattern/strategy logs**.  
 Data sources: **closed candles** from Kraken REST (official OHLC) and **live ticks** from Kraken WebSocket (fast).
@@ -22,12 +22,13 @@ Data sources: **closed candles** from Kraken REST (official OHLC) and **live tic
 ## Requirements
 - Windows/macOS/Linux
 - **Python 3.10+** (Tkinter is included with the standard Python installer)
-- Python packages: `requests`, `websocket-client`
+- Python packages: `requests`, `websocket-client`,
 
 ---
 
 ## Install & run (Windows, PowerShell)
 ```powershell
+
 # 1) Open PowerShell in the project folder
 #    C:\Users\franc\tradebot\tradepython\new
 
@@ -41,11 +42,12 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 # otherwise:
 python -m pip install requests websocket-client
-INSTALL TKINTER
-INSTALL REQUEST
+
 # 4) Run
 python tradebot.py
+
 ```
+
 Close with the window **X** or **Ctrl+C** (clean shutdown).
 
 ---
